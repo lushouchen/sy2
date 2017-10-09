@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <constant name="struts.custom.i18n.resources" value="messages"/>
+    
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="success">/common/success.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        
+        
+        <action name="upload" class="com.util.upload" method="upload">
+             <result name="success">/upload/upload_re.jsp</result>
+        </action>
+         
+        
+        <action name="authorAdd" class="com.action.author_action" method="authorAdd">
+        </action>
+        <action name="authorMana" class="com.action.author_action" method="authorMana">
+            <result>/admin/author/authorMana.jsp</result>
+        </action>
+        <action name="authorDel" class="com.action.author_action" method="authorDel">
+        </action>
+        <action name="authorSelect" class="com.action.author_action" method="authorSelect">
+            <result>/admin/author/authorSelect.jsp</result>
+        </action>
+        
+         
+        <action name="goodsAdd" class="com.action.goods_action" method="goodsAdd">
+        </action>
+        <action name="goodsMana" class="com.action.goods_action" method="goodsMana">
+            <result name="success">/admin/goods/goodsMana.jsp</result>
+        </action>
+        <action name="goodsDel" class="com.action.goods_action" method="goodsDel">
+        </action>
+        <action name="goodsDetailHou" class="com.action.goods_action" method="goodsDetailHou">
+            <result name="success">/admin/goods/goodsDetailHou.jsp</result>
+        </action>
+        <action name="goodsRes" class="com.action.goods_action" method="goodsRes">
+            <result name="success">/admin/goods/goodsMana.jsp</result>
+        </action>
+        
+    </package>
+</struts>

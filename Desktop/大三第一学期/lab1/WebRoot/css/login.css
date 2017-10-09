@@ -1,0 +1,96 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #105b92; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #105b92; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+BODY {
+	MIN-HEIGHT: 650px
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+.login {
+	TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND: #008af6; HEIGHT: 100%
+}
+.login .loginbox {
+	POSITION: relative; MARGIN: 0px auto; MIN-HEIGHT: 650px; WIDTH: 1200px; BACKGROUND: url(../images/login_box_bg.jpg) no-repeat center 50%; HEIGHT: 100%
+}
+.login_top {
+	POSITION: relative; WIDTH: 100%; BACKGROUND: url() no-repeat center 50%; HEIGHT: 40px; TOP: 30%
+}
+.login_top A {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 550px; DISPLAY: block; HEIGHT: 98px; PADDING-TOP: 10px
+}
+.login_top IMG {
+	TEXT-ALIGN: left; WIDTH: 75px; HEIGHT: 75px
+}
+.login .loginmain {
+	POSITION: relative; WIDTH: 100%; BACKGROUND: url(../images/login_boxnr_bg.png) no-repeat center 50%; HEIGHT: 300px; TOP: 30%
+}
+.login .loginmain INPUT {
+	POSITION: absolute; COLOR: #105b92; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.login .loginname {
+	POSITION: absolute; TEXT-ALIGN: left; LINE-HEIGHT: 25px; TEXT-INDENT: 5px; WIDTH: 240px; HEIGHT: 25px; COLOR: #084e87; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; TOP: 65px; FONT-WEIGHT: bold; LEFT: 465px
+}
+.login .loginname INPUT {
+	BORDER-BOTTOM: #1491fd 1px solid; BORDER-LEFT: #1491fd 1px solid; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; TEXT-INDENT: 5px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 160px; HEIGHT: 25px; VERTICAL-ALIGN: middle; BORDER-TOP: #1491fd 1px solid; TOP: 0px; RIGHT: 0px; BORDER-RIGHT: #1491fd 1px solid
+}
+.login .loginpwd {
+	POSITION: absolute; TEXT-ALIGN: left; LINE-HEIGHT: 25px; TEXT-INDENT: 5px; WIDTH: 240px; HEIGHT: 25px; COLOR: #084e87; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; TOP: 105px; FONT-WEIGHT: bold; LEFT: 465px
+}
+.login .loginpwd INPUT {
+	BORDER-BOTTOM: #1491fd 1px solid; BORDER-LEFT: #1491fd 1px solid; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; TEXT-INDENT: 5px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 160px; HEIGHT: 25px; VERTICAL-ALIGN: middle; BORDER-TOP: #1491fd 1px solid; TOP: 0px; RIGHT: 0px; BORDER-RIGHT: #1491fd 1px solid
+}
+.login .loginyzm {
+	POSITION: absolute; TEXT-ALIGN: left; LINE-HEIGHT: 25px; TEXT-INDENT: 5px; WIDTH: 240px; HEIGHT: 25px; COLOR: #084e87; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; TOP: 145px; FONT-WEIGHT: bold; LEFT: 465px
+}
+.login .loginyzm INPUT {
+	BORDER-BOTTOM: #1491fd 1px solid; BORDER-LEFT: #1491fd 1px solid; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; TEXT-INDENT: 5px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 90px; HEIGHT: 25px; VERTICAL-ALIGN: middle; BORDER-TOP: #1491fd 1px solid; TOP: 0px; BORDER-RIGHT: #1491fd 1px solid; LEFT: 78px
+}
+.yzm {
+	POSITION: absolute; TOP: 145px; LEFT: 640px
+}
+.yzm IMG {
+	WIDTH: 65px; HEIGHT: 27px
+}
+.autobtn {
+	POSITION: absolute; WIDTH: 170px; TOP: 190px; LEFT: 530px
+}
+.autobtn_left {
+	FLOAT: left; clolr: #1e6196
+}
+.autobtn_left SPAN {
+	MARGIN-LEFT: 15px
+}
+.autobtn_right {
+	FLOAT: right
+}
+.autobtn_right A {
+	COLOR: #f00
+}
+.login .loginbtn {
+	BORDER-BOTTOM: 0px; POSITION: absolute; BORDER-LEFT: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 100px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 30px; BORDER-TOP: 0px; TOP: 242px; CURSOR: pointer; BORDER-RIGHT: 0px; LEFT: 480px
+}
+.login .resetbtn {
+	BORDER-BOTTOM: 0px; POSITION: absolute; BORDER-LEFT: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 100px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 30px; BORDER-TOP: 0px; TOP: 242px; CURSOR: pointer; BORDER-RIGHT: 0px; LEFT: 645px
+}
+.login .support {
+	POSITION: relative; LINE-HEIGHT: 20px; WIDTH: 100%; HEIGHT: 20px; COLOR: #ffffff; FONT-SIZE: 18px
+}
+.seereals_loading {
+	Z-INDEX: 2147483647; POSITION: absolute; FILTER: alpha(opacity=40); WIDTH: 100%; DISPLAY: none; BACKGROUND: url(../images/loading.gif) #ccc no-repeat center center; HEIGHT: 100%; TOP: 0px; LEFT: 0px; opacity: 0.40
+}
