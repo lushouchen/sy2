@@ -16,6 +16,7 @@ public class liuService
 	public static Tgoods getGoods(String id)
 	{
 		Tgoods goods=new Tgoods();
+		String ddd="3333333";
 		
 		String sql="select * from t_goods where id=?";
 		Object[] params={id};
