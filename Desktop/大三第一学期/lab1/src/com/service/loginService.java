@@ -26,6 +26,8 @@ public class loginService
 		 
 		 String result="no";
 		 
+                 String tianjiade="9999";
+		 
 		
 		
 		
