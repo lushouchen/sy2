@@ -16,6 +16,7 @@ import com.orm.Tauthor;
 
 public class author_action extends ActionSupport
 {
+	int t=0;
 	
 	public String authorAdd()
 	{

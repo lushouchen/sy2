@@ -20,7 +20,7 @@ public class goods_action extends ActionSupport
 	public String goodsAdd()
 	{
 		HttpServletRequest req=ServletActionContext.getRequest();
-		int d=0;
+		int n=0;
 		String id=String.valueOf(new Date().getTime());
 		String isbn=req.getParameter("isbn");
 		String mingcheng=req.getParameter("mingcheng");

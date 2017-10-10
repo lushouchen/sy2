@@ -10,7 +10,7 @@ public class Tgoods
 	private String publisher;
 	private String publishDate;
 	private String price;
-	
+	private int u=0;
 	private Tauthor author;
 	
 	public String getId() {
