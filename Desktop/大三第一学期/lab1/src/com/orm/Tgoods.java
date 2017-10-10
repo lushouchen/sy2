@@ -6,7 +6,7 @@ public class Tgoods
 	private String isbn;
 	private String mingcheng;
 	private String author_id;
-	
+	private int d=0;
 	private String publisher;
 	private String publishDate;
 	private String price;

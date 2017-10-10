@@ -20,7 +20,7 @@ public class author_action extends ActionSupport
 	public String authorAdd()
 	{
 		HttpServletRequest req=ServletActionContext.getRequest();
-		
+		int d=0;
 		String id=String.valueOf(new Date().getTime());
 		String name=req.getParameter("name").trim();
 		String age=req.getParameter("age").trim();
