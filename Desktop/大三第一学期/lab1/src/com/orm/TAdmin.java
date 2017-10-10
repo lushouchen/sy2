@@ -5,7 +5,7 @@ public class TAdmin
 	private int userId;
 	private String userName;
 	private String userPw;
-	
+	private int y=0;
 	
 	public String getUserName()
 	{
